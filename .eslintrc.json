@@ -1,0 +1,58 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "node/exports-style": [
+          "error"
+        ],
+        "node/no-deprecated-api": [
+          "error"
+        ],
+        "node/no-missiong-import": [
+          "error"
+        ],
+        "node/no-missiong-require": [
+          "error"
+        ],
+        "node/no-unpublished-bin": [
+          "error"
+        ],
+        "node/no-unpublished-import": [
+          "error"
+        ],
+        "node/no-unpublished-require": [
+          "error"
+        ],
+        "node/no-unsupported-features": [
+          "error"
+        ],
+        "node/process-exit-as-throw": [
+          "error"
+        ],
+        "node/shebang": [
+          "error"
+        ]
+    }
+}
